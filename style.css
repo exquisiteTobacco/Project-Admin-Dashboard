@@ -17,10 +17,14 @@ html, body {
 .header {
     grid-column: 2 / 3;
     background-color: #2a402b;
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
     color: white;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
 }
 .sidebar {
     background-color: #557C56;
@@ -68,4 +72,99 @@ html, body {
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+.icons{
+  width: 50px;
+  height: 50px;
+}
+.topnav{
+  background-color: #2a402b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  
+}
+.searchbar {
+  width: 50%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  padding: 10px; /* Optional: Add padding for better appearance */
+  font-size: 16px; /* Optional: Increase font size for better readability */
+  border: 1px solid #ccc; /* Optional: Add border */
+  border-radius: 55px; /* Optional: Add border radius for rounded corners */
+}
+.userInf{
+  grid-row: 2/4;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  
+}
+.user-icon {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  border: 2px solid #ccc; /* Optional: Add a border around the icon */
+}
+.textHeader{
+  display: flex;
+  flex-direction: column;
+}
+.greeting {
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-bottom: 2px; /* Adjust the margin as needed */
+}
+.userName {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+.notification {
+  grid-row: 1/2;
+  grid-column: 2/4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+}
+#userPic {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the image circular */
+  /* Ensures the image covers the entire area */
+  
+}
+#bell {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  /* Makes the image circular */
+  /* Ensures the image covers the entire area */
+} 
+.buttonsTopContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  margin-right: 50px;
+}
+
+.buttonsTop {
+  padding: 15px 50px;
+  background-color: #4a6b4b;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #557C56;
 }
