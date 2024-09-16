@@ -15,13 +15,6 @@ This project is a web-based dashboard for managing and viewing projects. It feat
 - `index.html`: Main HTML structure
 - `style.css`: CSS styles for the dashboard
 
-## Installation
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/project-dashboard.git
-   ```
-2. Open `index.html` in your web browser.
-
 ## Usage
 Navigate through the dashboard using the sidebar menu. View project cards in the main content area and check the latest news and announcements in the side panel.
 
